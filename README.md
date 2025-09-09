@@ -4,6 +4,6 @@ This projects demonstrates the comprehensive data warehousing and analytics solu
 
 
 <h1>🏗️ Data Architecture</h1>
-The data architecture for the project follows the Medallion Architecture that has Bronze,Silver and Gold Layers.
+The Data Architecture for the project follows the Medallion Architecture that has <b>Bronze</b>,<b>Silver</b> and <b>Gold Layers</b>.
 
 ![Data Architecture](https://raw.githubusercontent.com/Pradhyum-git/sql-datawarehouse-project/main/docs/data_architecture.drawio.png)
