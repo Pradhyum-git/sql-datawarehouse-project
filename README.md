@@ -7,3 +7,8 @@ This projects demonstrates the comprehensive data warehousing and analytics solu
 The Data Architecture for the project follows the Medallion Architecture that has <b>Bronze</b>,<b>Silver</b> and <b>Gold Layers</b>.
 
 ![Data Architecture](https://raw.githubusercontent.com/Pradhyum-git/sql-datawarehouse-project/main/docs/data_architecture.drawio.png)
+
+
+<b>1.Bronze :</b> Stores raw data as is from source .Using Python sqlalchemy and pandas library csv file data is ingested to tabels.<br>
+<b>2.Silver :</b> Transformed raw data into cleaned and structured data ,techniques performed on raw data is Data Normalisation and data standardization for data analysis.
+<b>3.Gold :</b>  This layer creates new <b>Data Model </b> followed by <b>Star Schema</b> for business users to use them.
